@@ -8,7 +8,7 @@ words_per_minute         : 160
 read_more                : "disabled" 
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "gh-pages" 
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
