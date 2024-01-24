@@ -1,41 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Pages</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Nombre Apellido - Sitio Web GIS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Aptos:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Aptos', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container">
-        <nav class="sidebar">
+    <header>
+        <h1>Nombre Apellido - GIS</h1>
+    </header>
+
+    <nav>
+        <a href="#research">Research Interests</a>
+        <a href="#miscellaneous">Miscellaneous</a>
+    </nav>
+
+    <main>
+        <section id="research">
+            <h2>Research Interests</h2>
+            <p>Como biólogo, mi investigación abarca desde el desarrollo y aplicación de modelos hasta análisis geoespaciales en ecología, empleando enfoques metodológicos que integran software como GIS y R...</p>
             <ul>
-                <li id="research-tab" class="active">Research Interests</li>
-                <li id="miscellaneous-tab">Miscellaneous</li>
+                <li>Geospatial analysis</li>
+                <li>Ecological niche models</li>
+                <li>Biological corridors</li>
+                <li>Ecology of epiphytic plants</li>
+                <li>Biodiversity conservation</li>
+                <li>Multivariate statistics</li>
             </ul>
-        </nav>
+        </section>
 
-        <div class="content" id="research-content">
-            <div class="personal-info">
-                <h2>Investigator's Personal Information</h2>
-                <!-- Add your personal information here -->
-            </div>
-            <div class="research-interests">
-                <h2>Research Interests</h2>
-                <!-- Add your research interests here -->
-            </div>
-        </div>
+        <section id="miscellaneous">
+            <h2>Miscellaneous</h2>
+            <p>Historical migration of the neotropical songbird Setophaga cerulea...</p>
+            <p>I created an <a href="enlace-a-tu-animacion">infinite loop animation</a> using geospatial visualization techniques to depict the monthly distribution of S. cerulea in relation to historical maximum monthly temperature.</p>
+            <img src="ruta-a-tu-imagen" alt="Descripción de la imagen" class="project-image">
+        </section>
+    </main>
 
-        <div class="content" id="miscellaneous-content">
-            <h2>Miscellaneous Content</h2>
-            <!-- Add your miscellaneous content here -->
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+    <footer>
+        <p>Contacto: tu-correo-electronico@example.com</p>
+    </footer>
 </body>
-
 </html>
