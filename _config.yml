@@ -1,20 +1,3 @@
-remote_theme: "mmistakes/minimal-mistakes"
-
-title: "Danny Castiblanco-González"
-description: "Welcome."
-
-author:
-  name: "[Danny Castiblanco-González]"
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-
-# Otras configuraciones específicas del tema Minimal Mistakes
-minimal_mistakes_skin: "default"
-minimal_mistakes_sidebar: left
-minimal_mistakes_social: true
-minimal_mistakes_comments: true
-minimal_mistakes_disqus_shortname: "tu-disqus-shortname"
-
-
+theme: jekyll-theme-minimal
+title: Danny Castiblanco-González
+description: Bookmark this to keep an eye on my project updates!
