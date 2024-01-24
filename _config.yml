@@ -1,28 +1,20 @@
-title                    : "Danny Castiblanco-González"
-title_separator          : "-"
-name                     : &name "Danny Castiblanco-González"
-url                      : https://Dancarolinii.github.io
-repository               : "Dancarolinii.github.io"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-read_more                : "disabled" 
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" 
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default)
+remote_theme: "mmistakes/minimal-mistakes"
+
+title: "Danny Castiblanco-González"
+description: "Welcome."
+
 author:
-  name             : "Danny Castiblanco-González"
-  avatar           : "IMG_3265 con desenfoque en 10.png"  
-  email            : "dccastiblanco@unbosque.edu.co"
-  github           : "Dancarolinii"
+  name: "[Danny Castiblanco-González]"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Otras configuraciones específicas del tema Minimal Mistakes
+minimal_mistakes_skin: "default"
+minimal_mistakes_sidebar: left
+minimal_mistakes_social: true
+minimal_mistakes_comments: true
+minimal_mistakes_disqus_shortname: "tu-disqus-shortname"
+
+
