@@ -1,31 +1,41 @@
----
-layout: home
-title: Danny Castiblanco-González
----
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Contenido específico de tu página principal va aquí -->
-<div class="container">
-    <header>
-        <div class="left-side">
-            <h1>Danny Castiblanco-González</h1>
-            <img src="profile-IMG.png" alt="Tu Foto de Perfil">
-            <a href="mailto:dccastiblanco@unbosque.edu.co">
-                <img src="mail-IMG.png" alt="Correo Electrónico">
-            </a>
-        </div>
-        <div class="right-side">
-            <h2>Research Interests</h2>
-            <p>
-                As a biologist, my research spans from the development and application of models to geospatial analyses in ecology, employing methodological approaches that integrate software such as GIS and R. My research interests lie in identifying spatial patterns in species distribution, developing biological corridors, and understanding host specificity of epiphytic plants in fragmented habitats. Through statistical and geospatial analyses, I aim to explore patterns and relationships in complex natural systems across diverse contexts.
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
             <ul>
-                <li>Geospatial analysis</li>
-                <li>Ecological niche models</li>
-                <li>Biological corridors</li>
-                <li>Ecology of epiphytic plants</li>
-                <li>Biodiversity conservation</li>
-                <li>Multivariate statistics</li>
+                <li id="research-tab" class="active">Research Interests</li>
+                <li id="miscellaneous-tab">Miscellaneous</li>
             </ul>
+        </nav>
+
+        <div class="content" id="research-content">
+            <div class="personal-info">
+                <h2>Investigator's Personal Information</h2>
+                <!-- Add your personal information here -->
+            </div>
+            <div class="research-interests">
+                <h2>Research Interests</h2>
+                <!-- Add your research interests here -->
+            </div>
         </div>
-    </header>
-</div>
+
+        <div class="content" id="miscellaneous-content">
+            <h2>Miscellaneous Content</h2>
+            <!-- Add your miscellaneous content here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
