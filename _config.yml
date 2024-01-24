@@ -1,0 +1,28 @@
+title                    : "Danny Castiblanco-González"
+title_separator          : "-"
+name                     : &name "Danny Castiblanco-González"
+url                      : https://Dancarolinii.github.io
+repository               : "Dancarolinii.github.io"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+read_more                : "disabled" 
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default)
+author:
+  name             : "Danny Castiblanco-González"
+  avatar           : "IMG_3265 con desenfoque en 10.png"  
+  email            : "dccastiblanco@unbosque.edu.co"
+  github           : "Dancarolinii"
