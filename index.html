@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danny Castiblanco-González - Sitio Web GIS</title>
+    <title>Nombre Apellido - Sitio Web GIS</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Aptos:wght@400;700&display=swap">
     <style>
         body {
@@ -23,24 +23,34 @@
             padding: 20px;
             text-align: center;
             flex: 0 0 20%;
+            position: fixed;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         nav {
-            background-color: #156082;
+            background-color: #444444;
             padding: 10px;
             text-align: center;
             flex: 0 0 20%;
+            margin-left: 20%;
         }
 
         nav a {
             color: #ffffff;
             text-decoration: none;
             margin: 0 10px;
+            cursor: pointer;
         }
 
         main {
             padding: 20px;
             flex: 0 0 60%;
+            margin-left: 20%;
         }
 
         h2 {
@@ -54,7 +64,7 @@
         }
 
         footer {
-            background-color: #156082;
+            background-color: #333333;
             color: #ffffff;
             text-align: center;
             padding: 10px;
@@ -66,23 +76,25 @@
 </head>
 <body>
     <header>
-        <h1>Danny Castiblanco-González</h1>
+        <h1>Nombre Apellido</h1>
         <img src="ruta-a-tu-foto-de-perfil" alt="Tu Foto de Perfil">
-        <a href="mailto:dccastiblanco@unbosque.edu.co"><img src="ruta-a-tu-logo-de-correo" alt="Correo Electrónico"></a>
+        <a href="mailto:tu-correo-electronico@example.com"><img src="ruta-a-tu-logo-de-correo" alt="Correo Electrónico"></a>
     </header>
 
     <nav>
-        <a href="#research">Research Interests</a>
-        <a href="miscellaneous.html" target="_blank">Miscellaneous</a>
+        <a onclick="openSection('research.html')">Research Interests</a>
+        <a onclick="openSection('miscellaneous.html')">Miscellaneous</a>
     </nav>
 
     <main>
-        <section id="research">
-            <h2>Research Interests</h2>
-            <!-- Contenido de la sección "Research Interests" -->
-        </section>
+        <!-- Contenido general de la página principal -->
     </main>
 
-    
+   
+    <script>
+        function openSection(url) {
+            window.open(url, '_blank', 'width=800,height=600,resizable=yes,scrollbars=yes');
+        }
+    </script>
 </body>
 </html>
