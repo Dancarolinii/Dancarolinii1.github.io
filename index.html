@@ -1,37 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Research Website</title>
+    <title>Danny Castiblanco-González</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .research-interests {
+            width: 50%;
+            margin: auto;
+        }
+
+        .research-interests h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+        }
+
+        .research-interests ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .research-interests ul li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Research Interests</h1>
-        <p>As a biologist, my research...</p>
-        <ul>
-            <li>Geospatial analysis</li>
-            <li>Ecological niche models</li>
-            <li>Biological corridors</li>
-            <li>Ecology of epiphytic plants</li>
-            <li>Biodiversity conservation</li>
-            <li>Multivariate statistics</li>
-        </ul>
+        <div>
+            <h1>Danny Castiblanco-González</h1>
+            <img src="images/profile-IMG.png" alt="Tu Foto de Perfil">
+        </div>
+        <div>
+            <a href="mailto:dccastiblanco@unbosque.edu.co">
+                <img src="mail-IMG.png" alt="Correo Electrónico">
+            </a>
+        </div>
     </header>
 
-    <section id="miscellaneous">
-        <h2>Historical migration of the neotropical songbird <i>Setophaga cerulea</i></h2>
-        <p>Neotropical migratory songbirds...</p>
-        <!-- Puedes insertar tu animación en formato GIF aquí -->
+    <main>
+        <div class="research-interests">
+            <h2>Research Interests</h2>
+            <p>
+                As a biologist, my research spans from the development and application of models to geospatial analyses in ecology, employing methodological approaches that integrate software such as GIS and R. My research interests lie in identifying spatial patterns in species distribution, developing biological corridors, and understanding host specificity of epiphytic plants in fragmented habitats. Through statistical and geospatial analyses, I aim to explore patterns and relationships in complex natural systems across diverse contexts.
+            </p>
+            <ul>
+                <li>Geospatial analysis</li>
+                <li>Ecological niche models</li>
+                <li>Biological corridors</li>
+                <li>Ecology of epiphytic plants</li>
+                <li>Biodiversity conservation</li>
+                <li>Multivariate statistics</li>
+            </ul>
+        </div>
+    </main>
 
-        <p>Long-term monitoring of <i>S. cerulea</i>, coupled with the analysis of climatic variables...</p>
+    <footer>
+        <p>&copy; 2024 Danny Castiblanco-González</p>
+    </footer>
 
-        <h2>Contributions</h2>
-        <p>This project welcomes contributions! You can suggest improvements, provide additional data, or share your own analyses.</p>
-
-        <h2>Contact</h2>
-        <p>For questions, suggestions, or collaborations, feel free to get in touch via email or GitHub.</p>
-        <p>Email: <a href="mailto:dccastiblanco@unbosque.edu.co">dccastiblanco@unbosque.edu.co</a></p>
-    </section>
 </body>
 </html>
