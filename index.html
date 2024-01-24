@@ -13,6 +13,8 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            display: flex;
+            justify-content: space-between;
         }
 
         header {
@@ -20,12 +22,14 @@
             color: #ffffff;
             padding: 20px;
             text-align: center;
+            flex: 0 0 20%;
         }
 
         nav {
             background-color: #444444;
             padding: 10px;
             text-align: center;
+            flex: 0 0 20%;
         }
 
         nav a {
@@ -36,6 +40,7 @@
 
         main {
             padding: 20px;
+            flex: 0 0 60%;
         }
 
         h2 {
@@ -61,33 +66,20 @@
 </head>
 <body>
     <header>
-        <h1>Nombre Apellido - GIS</h1>
+        <h1>Nombre Apellido</h1>
+        <img src="ruta-a-tu-foto-de-perfil" alt="Tu Foto de Perfil">
+        <a href="mailto:tu-correo-electronico@example.com"><img src="ruta-a-tu-logo-de-correo" alt="Correo Electrónico"></a>
     </header>
 
     <nav>
         <a href="#research">Research Interests</a>
-        <a href="#miscellaneous">Miscellaneous</a>
+        <a href="miscellaneous.html" target="_blank">Miscellaneous</a>
     </nav>
 
     <main>
         <section id="research">
             <h2>Research Interests</h2>
-            <p>Como biólogo, mi investigación abarca desde el desarrollo y aplicación de modelos hasta análisis geoespaciales en ecología, empleando enfoques metodológicos que integran software como GIS y R...</p>
-            <ul>
-                <li>Geospatial analysis</li>
-                <li>Ecological niche models</li>
-                <li>Biological corridors</li>
-                <li>Ecology of epiphytic plants</li>
-                <li>Biodiversity conservation</li>
-                <li>Multivariate statistics</li>
-            </ul>
-        </section>
-
-        <section id="miscellaneous">
-            <h2>Miscellaneous</h2>
-            <p>Historical migration of the neotropical songbird Setophaga cerulea...</p>
-            <p>I created an <a href="enlace-a-tu-animacion">infinite loop animation</a> using geospatial visualization techniques to depict the monthly distribution of S. cerulea in relation to historical maximum monthly temperature.</p>
-            <img src="ruta-a-tu-imagen" alt="Descripción de la imagen" class="project-image">
+            <!-- Contenido de la sección "Research Interests" -->
         </section>
     </main>
 
